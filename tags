@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Dy_arr	dyn_arr.cpp	/^Dy_arr<T>::Dy_arr() : m_ptr(nullptr), $/;"	f	class:Dy_arr
+Dy_arr	dyn_arr.cpp	/^Dy_arr<T>::Dy_arr(Dy_arr && obj) : m_size(obj.m_size)$/;"	f	class:Dy_arr
+Dy_arr	dyn_arr.cpp	/^Dy_arr<T>::Dy_arr(const Dy_arr & obj) : m_size(obj.m_size)$/;"	f	class:Dy_arr
+Dy_arr	dyn_arr.cpp	/^Dy_arr<T>::Dy_arr(const int& size) : m_size(size)$/;"	f	class:Dy_arr
+Dy_arr	dyn_arr.hpp	/^class Dy_arr{$/;"	c
+__DYN_ARR_EXCEP__	dyn_arr.hpp	2;"	d
+copy	loading.sh	/^copy(){$/;"	f
+m_num_of_elem	dyn_arr.hpp	/^	int m_num_of_elem;$/;"	m	class:Dy_arr
+m_ptr	dyn_arr.hpp	/^	T * m_ptr;$/;"	m	class:Dy_arr
+m_size	dyn_arr.hpp	/^	int m_size;$/;"	m	class:Dy_arr
+main	dyn_arr.cpp	/^int main()$/;"	f
+max_size	dyn_arr.cpp	6;"	d	file:
+max_size	dyn_arr.hpp	3;"	d
+min_size	dyn_arr.cpp	7;"	d	file:
+min_size	dyn_arr.hpp	4;"	d
+operator =	dyn_arr.cpp	/^Dy_arr<T> & Dy_arr<T>::operator=(Dy_arr && obj)$/;"	f	class:Dy_arr
+operator =	dyn_arr.cpp	/^Dy_arr<T> & Dy_arr<T>::operator=(const Dy_arr & obj)$/;"	f	class:Dy_arr
+operator []	dyn_arr.cpp	/^T& Dy_arr<T>::operator[](const int& index)$/;"	f	class:Dy_arr
+pop_back	dyn_arr.cpp	/^T Dy_arr<T>::pop_back()$/;"	f	class:Dy_arr
+print	dyn_arr.cpp	/^void Dy_arr<T>::print()$/;"	f	class:Dy_arr
+push_back	dyn_arr.cpp	/^void Dy_arr<T>::push_back(const T & value)$/;"	f	class:Dy_arr
+resize	dyn_arr.cpp	/^void Dy_arr<T>::resize(const int& size)$/;"	f	class:Dy_arr
+spin	loading.sh	/^spin(){$/;"	f
+~Dy_arr	dyn_arr.cpp	/^Dy_arr<T>::~Dy_arr()$/;"	f	class:Dy_arr
