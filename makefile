@@ -1,7 +1,7 @@
 all:dyn_arr.cpp
 	@clear
 	@echo ========== START  COMPILATION ===========
-#	@./loading.sh
+	@./loading.sh
 	@echo
 	@ctags -R .
 	@g++ -g dyn_arr.cpp -o dyn_arr
